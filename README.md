@@ -1,2 +1,4 @@
 ghq-pwd
 =======
+
+MIT License
