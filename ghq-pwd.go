@@ -16,7 +16,7 @@ func main() {
   app := cli.NewApp()
   app.Name = "ghq-pwd"
   app.Usage = "shorten pwd path under the ghq."
-  app.Action = func(c *cli.Context) {
+  app.ActionFunc = func(c *cli.Context) {
     fmt.Println(ghqpwd())
   }
 
